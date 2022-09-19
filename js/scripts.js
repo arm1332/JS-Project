@@ -1,1 +1,1 @@
-pokemon=[];
+pokemonList=[];
