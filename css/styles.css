@@ -1,0 +1,29 @@
+:root {
+    /* colors */
+    --yellow: #ffde00;
+    --blue: #3b3cc4;
+
+
+    /* other properties */
+    --font-weight-h: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--yellow);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--blue);
+    font-size: 50px;
+    font-weight: var(--font-weight-h);
+    margin: 0;
+    padding-left: 10px;
+}
