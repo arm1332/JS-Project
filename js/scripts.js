@@ -1,7 +1,7 @@
 let pokemonList=[ //making an array of objects
-  {name:"bulbasaur",type:["grass","poison"],height:"0.7"},
-  {name:"charmander", type:"fire",height:"0.6"},
-  {name:"pikachu",type:"electric",height:"0.4"}
+  {name:"Bulbasaur",type:["grass","poison"],height:"0.7"},
+  {name:"Charmander", type:"fire",height:"0.6"},
+  {name:"Pikachu",type:"electric",height:"0.4"}
 ]
 // for loop to go through each item
 for(let i =0; i < pokemonList.length; i++ ) {
