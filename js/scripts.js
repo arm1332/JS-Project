@@ -6,9 +6,9 @@ let pokemonList=[ //making an array of objects
 // for loop to go through each item
 for(let i =0; i < pokemonList.length; i++ ) {
   if (pokemonList[i].height >= 0.7) { //if item is great or equal to height
-    document.write(pokemonList[i].name + 'height:' + pokemonList[i].height +'-Wow, that/s big!' + '<br>');
+    document.write(pokemonList[i].name + ' height: ' + pokemonList[i].height +'-Wow, that\'s big!' + '<br>');
   } else {
-    document.write(pokemonList[i].name + 'height:' + pokemonList[i].height + '<br>');
+    document.write(pokemonList[i].name + ' height: ' + pokemonList[i].height + '<br>');
 
   }
 }
