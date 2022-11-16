@@ -61,7 +61,7 @@ let pokemonRepository = (function () {
 
         function showDetails(item) {
           pokemonRepository.loadDetails(item).then(function () {
-            showModal(pokemon)
+            showModal(item)
 
    //console.log(pokemon);
 
